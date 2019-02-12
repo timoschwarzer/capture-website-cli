@@ -139,6 +139,7 @@ const options = cli.flags;
 options.modules = arrify(options.module);
 options.scripts = arrify(options.script);
 options.styles = arrify(options.style);
+options.executablePath = 'google-chrome-unstable';
 
 options.headers = {};
 for (const header of arrify(options.header)) {
